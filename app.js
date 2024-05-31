@@ -15,7 +15,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://localhost:3001","http://localhost:3002"],
+    origin: ["http://localhost:3000", "http://localhost:3001","http://localhost:3002","https://spicesafariadmin-b2fy.vercel.app/","https://spicesafariadmin-b2fy-tosironjegedes-projects.vercel.app/"],
     optionsSuccessStatus: 200,
     credentials: true,
   }),
